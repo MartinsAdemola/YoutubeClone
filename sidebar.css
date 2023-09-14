@@ -1,0 +1,35 @@
+.sidebar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 80px;
+    background-color: white;
+    width: 95px;
+    z-index: 2;
+}
+
+/* position absolute is a position fixed that scolls*/
+
+.sidebar1 {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+
+.sidebar1:hover  {
+    background-color:rgb(240, 238, 238);
+} 
+
+.sidebar1-img {
+    height: 30px;
+    margin-bottom: 6px;
+}
+
+.sidebar1 div {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
